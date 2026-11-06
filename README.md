@@ -49,9 +49,9 @@ tags:
 | 运动 | `/workout/` |
 | Atom 订阅 | `/atom.xml` |
 
-运动页是占位：页面里嵌了 `https://xunfeng-1.github.io/workouts/`。Garmin 国际区的跑步仪表盘会在另一个仓库里用 running_page 做好后再接上，目前可能打不开。
+运动页嵌入 <https://xunfeng-1.github.io/workouts/>。
 
-侧栏里的「阅读」入口先注释掉了，笔记页准备好之后再在 `_config.stellar.yml` 里打开。
+侧栏里的「阅读」入口在 `_config.stellar.yml` 中处于注释状态。
 
 ## 发布到 GitHub Pages
 
