@@ -1,0 +1,72 @@
+# 站点对 Stellar 默认配置的覆盖。数组会整体替换，对象按字段合并。
+# 主题文档：https://xaoxuu.com/wiki/stellar/
+
+leftbar:
+  brand:
+    name: Xunfeng 的博客
+    tagline: 个人博客
+    href: /
+    ghuser: Xunfeng-1
+    image:
+      src: https://github.com/Xunfeng-1.png
+      variant: avatar
+  menu:
+    - id: post
+      title: 博客
+      icon: default:documents
+      url: /
+      accent: '#1BCDFC'
+    # 阅读入口先留着，笔记页准备好后再打开。
+    # - id: reading
+    #   title: 阅读
+    #   icon: default:notebook
+    #   url: /reading/
+    #   accent: '#3DC550'
+    - id: workouts
+      title: 运动
+      icon: custom:running
+      url: /workout/
+      accent: '#FA6400'
+    - id: categories
+      title: 分类
+      icon: default:category
+      url: /categories/
+    - id: tags
+      title: 标签
+      icon: default:hashtag
+      url: /tags/
+    - id: archives
+      title: 归档
+      icon: default:calendar
+      url: /archives/
+    - id: about
+      title: 关于
+      icon: default:profile
+      url: /about/
+
+footer:
+  sitemap:
+    - title: 博客
+      items:
+        - '[近期发布](/)'
+        - '[分类](/categories/)'
+        - '[标签](/tags/)'
+        - '[归档](/archives/)'
+    - title: 本站
+      items:
+        - '[运动](/workout/)'
+        - '[关于](/about/)'
+        - '[Atom 订阅](/atom.xml)'
+
+article:
+  listing:
+    excerpt_length: 128
+
+appearance:
+  typography:
+    content_align: justify
+    font_family:
+      body: '"Helvetica Neue", Helvetica, Arial, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, sans-serif'
+      code: '"SF Mono", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+  code_block:
+    scrollbar_width: 0px
