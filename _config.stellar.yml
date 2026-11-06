@@ -16,7 +16,6 @@ leftbar:
       icon: default:documents
       url: /
       accent: '#1BCDFC'
-    # 阅读入口先留着，笔记页准备好后再打开。
     # - id: reading
     #   title: 阅读
     #   icon: default:notebook
